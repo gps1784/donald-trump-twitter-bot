@@ -16,7 +16,7 @@
       <th>Analytical</th>
       <th>Confident</th>
       <th>Tentative</th>
-      <th colspan="3"></th>
+      <th></th>
     </tr>
   </thead>
 
@@ -35,8 +35,6 @@
         <td><%= markov.confident %></td>
         <td><%= markov.tentative %></td>
         <td><%= link_to 'Show', markov %></td>
-        <td><%= link_to 'Edit', edit_markov_path(markov) %></td>
-        <td><%= link_to 'Destroy', markov, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

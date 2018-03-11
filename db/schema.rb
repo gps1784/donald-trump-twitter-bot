@@ -14,8 +14,8 @@
 ActiveRecord::Schema.define(version: 20180311023533) do
 
   create_table "markovs", force: :cascade do |t|
-    t.string  "current",                    null: false
-    t.string  "next",                       null: false
+    t.string  "current"
+    t.string  "next"
     t.integer "frequency",  default: 0,     null: false
     t.boolean "recent",     default: false, null: false
     t.integer "anger",      default: 0,     null: false

@@ -15,7 +15,4 @@ module MarkovsHelper
   end # test_twitter
 
   module_function :test_twitter
-
-  def import_from_twitter
-  end # import_from_twitter
 end
