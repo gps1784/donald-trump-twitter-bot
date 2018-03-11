@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Parsed:</strong>
+  <%= @trump_tweet.parsed %>
+</p>
+
+<p>
+  <strong>Retweets:</strong>
+  <%= @trump_tweet.retweets %>
+</p>
+
+<p>
+  <strong>Published at:</strong>
+  <%= @trump_tweet.published_at %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @trump_tweet.text %>
+</p>
+
+<%= link_to 'Back', trump_tweets_path %>

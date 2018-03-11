@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :trump_tweets, only: [:index, :show]
+  resources :markovs, only: [:index, :show]
+  root 'markovs#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

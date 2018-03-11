@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  current: MyString
+  next: MyString
+  frequency: 1
+  recent: false
+  anger: 1
+  fear: 1
+  joy: 1
+  sadness: 1
+  analytical: 1
+  confident: 1
+  tentative: 1
+
+two:
+  current: MyString
+  next: MyString
+  frequency: 1
+  recent: false
+  anger: 1
+  fear: 1
+  joy: 1
+  sadness: 1
+  analytical: 1
+  confident: 1
+  tentative: 1

@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Trump Tweets</h1>
+
+<table class="table table-striped">
+  <thead class="thead-light">
+    <tr>
+      <th>Parsed</th>
+      <th>Retweets</th>
+      <th>Published at</th>
+      <th>Text</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @trump_tweets.each do |trump_tweet| %>
+      <tr>
+        <td><%= trump_tweet.parsed %></td>
+        <td><%= trump_tweet.retweets %></td>
+        <td><%= trump_tweet.published_at %></td>
+        <td><%= truncate(trump_tweet.text) %></td>
+        <td><%= link_to 'Show', trump_tweet %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
